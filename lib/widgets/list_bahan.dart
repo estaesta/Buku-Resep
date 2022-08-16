@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class ListBahan extends StatelessWidget {
   final Resep resep;
   late Map bahanBahan = resep.bahanBahan;
-  late List ee = ['a','b'];
 
   ListBahan({super.key, required this.resep});
   @override
@@ -15,14 +14,12 @@ class ListBahan extends StatelessWidget {
           itemCount: 1,
           itemBuilder: (BuildContext context, int index) {
             return ListTile(
-              title: Text(
+              title: const Text(
                 'Ingredients',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               subtitle: Column(
-                children: bahanBahan.keys
-                    .map((key) => Text(key))
-                    .toList(),
+                children: bahanBahan.keys.map((key) => Text(key)).toList(),
               ),
             );
           },

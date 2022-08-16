@@ -3,10 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../screens/detail_screen.dart';
 
-enum SortResepGrid {
-  terbaru,
-  favorite
-} 
+enum SortResepGrid { terbaru, favorite }
 
 class ResepGrid extends StatelessWidget {
   final int gridCount;
@@ -14,8 +11,11 @@ class ResepGrid extends StatelessWidget {
   final SortResepGrid sortOption;
   final List<Resep> resep = List.from(resepList);
 
-   ResepGrid({super.key, required this.gridCount, required this.itemCount, this.sortOption = SortResepGrid.terbaru})
-  {
+  ResepGrid(
+      {super.key,
+      required this.gridCount,
+      required this.itemCount,
+      this.sortOption = SortResepGrid.terbaru}) {
     switch (sortOption) {
       case SortResepGrid.favorite:
         resep.sort((b, a) => a.favoriteCount.compareTo(b.favoriteCount));
@@ -73,7 +73,7 @@ class ResepGrid extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 8,
                 ),
               ],

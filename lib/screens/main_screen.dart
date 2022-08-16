@@ -33,7 +33,7 @@ class _MainScreenState extends State<MainScreen> {
         controller: _controller,
         autofocus: _autofocus,
       ),
-      FavoritePage(),
+      const FavoritePage(),
     ];
     return Scaffold(
       body: widgetOptions.elementAt(_selectedIndex),

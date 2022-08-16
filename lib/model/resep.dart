@@ -328,5 +328,227 @@ var resepList = [
       "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
     ],
     favoriteCount: 3,
+  ),
+  Resep(
+    nama: "Soto Ayam",
+    imageAsset:
+        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    description:
+        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+    waktu: 50,
+    porsi: 5,
+    videoUrl: "",
+    bahanBahan: {
+      "Bahan": [
+        Bahan("Daging kambing potong dadu", 500, "g"),
+        Bahan("Tusuk sate", 20, "buah")
+      ],
+      "Bumbu olesan": [
+        Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Ketumbar halus", 0.2, "sdt"),
+        Bahan("Merica halus", 0.25, "sdt"),
+        Bahan("Garam", 0.25, "sdt"),
+        Bahan("Kecap manis", 100, "ml"),
+        Bahan("Air perasan jeruk nipis", "", "secukupnya")
+      ],
+      "Bahan pelengkap": [
+        Bahan("Tomat", 2, "buah"),
+        Bahan("Kubis iris halus", 50, "g"),
+        Bahan("Cabai rawit iris", 10, "buah"),
+        Bahan("Kecap manis", 5, "sdm")
+      ]
+    },
+    cara: [
+      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
+      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
+      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
+      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+    ],
+    favoriteCount: 3,
+  ),
+  Resep(
+    nama: "Soto Ayam",
+    imageAsset:
+        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    description:
+        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+    waktu: 50,
+    porsi: 5,
+    videoUrl: "",
+    bahanBahan: {
+      "Bahan": [
+        Bahan("Daging kambing potong dadu", 500, "g"),
+        Bahan("Tusuk sate", 20, "buah")
+      ],
+      "Bumbu olesan": [
+        Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Ketumbar halus", 0.2, "sdt"),
+        Bahan("Merica halus", 0.25, "sdt"),
+        Bahan("Garam", 0.25, "sdt"),
+        Bahan("Kecap manis", 100, "ml"),
+        Bahan("Air perasan jeruk nipis", "", "secukupnya")
+      ],
+      "Bahan pelengkap": [
+        Bahan("Tomat", 2, "buah"),
+        Bahan("Kubis iris halus", 50, "g"),
+        Bahan("Cabai rawit iris", 10, "buah"),
+        Bahan("Kecap manis", 5, "sdm")
+      ]
+    },
+    cara: [
+      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
+      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
+      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
+      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+    ],
+    favoriteCount: 3,
+  ),
+  Resep(
+    nama: "Soto Ayam",
+    imageAsset:
+        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    description:
+        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+    waktu: 50,
+    porsi: 5,
+    videoUrl: "",
+    bahanBahan: {
+      "Bahan": [
+        Bahan("Daging kambing potong dadu", 500, "g"),
+        Bahan("Tusuk sate", 20, "buah")
+      ],
+      "Bumbu olesan": [
+        Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Ketumbar halus", 0.2, "sdt"),
+        Bahan("Merica halus", 0.25, "sdt"),
+        Bahan("Garam", 0.25, "sdt"),
+        Bahan("Kecap manis", 100, "ml"),
+        Bahan("Air perasan jeruk nipis", "", "secukupnya")
+      ],
+      "Bahan pelengkap": [
+        Bahan("Tomat", 2, "buah"),
+        Bahan("Kubis iris halus", 50, "g"),
+        Bahan("Cabai rawit iris", 10, "buah"),
+        Bahan("Kecap manis", 5, "sdm")
+      ]
+    },
+    cara: [
+      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
+      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
+      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
+      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+    ],
+    favoriteCount: 3,
+  ),
+  Resep(
+    nama: "Soto Ayam",
+    imageAsset:
+        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    description:
+        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+    waktu: 50,
+    porsi: 5,
+    videoUrl: "",
+    bahanBahan: {
+      "Bahan": [
+        Bahan("Daging kambing potong dadu", 500, "g"),
+        Bahan("Tusuk sate", 20, "buah")
+      ],
+      "Bumbu olesan": [
+        Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Ketumbar halus", 0.2, "sdt"),
+        Bahan("Merica halus", 0.25, "sdt"),
+        Bahan("Garam", 0.25, "sdt"),
+        Bahan("Kecap manis", 100, "ml"),
+        Bahan("Air perasan jeruk nipis", "", "secukupnya")
+      ],
+      "Bahan pelengkap": [
+        Bahan("Tomat", 2, "buah"),
+        Bahan("Kubis iris halus", 50, "g"),
+        Bahan("Cabai rawit iris", 10, "buah"),
+        Bahan("Kecap manis", 5, "sdm")
+      ]
+    },
+    cara: [
+      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
+      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
+      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
+      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+    ],
+    favoriteCount: 3,
+  ),
+  Resep(
+    nama: "Soto Ayam",
+    imageAsset:
+        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    description:
+        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+    waktu: 50,
+    porsi: 5,
+    videoUrl: "",
+    bahanBahan: {
+      "Bahan": [
+        Bahan("Daging kambing potong dadu", 500, "g"),
+        Bahan("Tusuk sate", 20, "buah")
+      ],
+      "Bumbu olesan": [
+        Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Ketumbar halus", 0.2, "sdt"),
+        Bahan("Merica halus", 0.25, "sdt"),
+        Bahan("Garam", 0.25, "sdt"),
+        Bahan("Kecap manis", 100, "ml"),
+        Bahan("Air perasan jeruk nipis", "", "secukupnya")
+      ],
+      "Bahan pelengkap": [
+        Bahan("Tomat", 2, "buah"),
+        Bahan("Kubis iris halus", 50, "g"),
+        Bahan("Cabai rawit iris", 10, "buah"),
+        Bahan("Kecap manis", 5, "sdm")
+      ]
+    },
+    cara: [
+      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
+      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
+      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
+      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+    ],
+    favoriteCount: 3,
+  ),
+  Resep(
+    nama: "Soto Ayam",
+    imageAsset:
+        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    description:
+        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+    waktu: 50,
+    porsi: 5,
+    videoUrl: "",
+    bahanBahan: {
+      "Bahan": [
+        Bahan("Daging kambing potong dadu", 500, "g"),
+        Bahan("Tusuk sate", 20, "buah")
+      ],
+      "Bumbu olesan": [
+        Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Ketumbar halus", 0.2, "sdt"),
+        Bahan("Merica halus", 0.25, "sdt"),
+        Bahan("Garam", 0.25, "sdt"),
+        Bahan("Kecap manis", 100, "ml"),
+        Bahan("Air perasan jeruk nipis", "", "secukupnya")
+      ],
+      "Bahan pelengkap": [
+        Bahan("Tomat", 2, "buah"),
+        Bahan("Kubis iris halus", 50, "g"),
+        Bahan("Cabai rawit iris", 10, "buah"),
+        Bahan("Kecap manis", 5, "sdm")
+      ]
+    },
+    cara: [
+      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
+      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
+      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
+      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+    ],
+    favoriteCount: 3,
   )
 ];
