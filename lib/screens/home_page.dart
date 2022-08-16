@@ -115,7 +115,7 @@ class Home extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
                         child: const Text(
                           'Buku Resep',
-                          style: TextStyle(fontSize: 26, color: Colors.white),
+                          style: TextStyle(fontSize: 30, color: Colors.white),
                         ),
                       ),
                     ],
@@ -134,9 +134,22 @@ class Home extends StatelessWidget {
                     const SizedBox(
                       height: 20,
                     ),
+                    //text masak apa hari ini
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 26.0),
+                      child: Text(
+                        'Masak apa hari ini?',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 30,
+                    ),
                     const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 26.0),
-                      child: Text("Highlights",
+                      child: Text("Rekomendasi",
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,

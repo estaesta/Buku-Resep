@@ -97,13 +97,13 @@ class _SearchPageState extends State<SearchPage> {
                       case 1:
                         setState(() {
                           _foundResep.sort((a, b) =>
-                              a.favoriteCount.compareTo(b.favoriteCount));
+                              b.favoriteCount.compareTo(a.favoriteCount));
                         });
                         break;
                       case 2:
                         setState(() {
                           _foundResep.sort((a, b) =>
-                              b.favoriteCount.compareTo(a.favoriteCount));
+                              a.favoriteCount.compareTo(b.favoriteCount));
                         });
                         break;
                       case 3:

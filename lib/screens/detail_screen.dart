@@ -108,9 +108,11 @@ class _DetailScreenState extends State<DetailScreen> {
                                                     if (favState) {
                                                       favList
                                                           .add(widget.resep.id);
+                                                      widget.resep.favoriteCount++;
                                                     } else {
                                                       favList.remove(
                                                           widget.resep.id);
+                                                      widget.resep.favoriteCount--;
                                                     }
                                                   });
                                                 },
@@ -119,18 +121,18 @@ class _DetailScreenState extends State<DetailScreen> {
                                                     : Colors.grey,
                                               ),
                                               if (favState) ...[
-                                                const Text(
-                                                  "Favorited",
-                                                  style: TextStyle(
+                                                Text(
+                                                  "Favorited (${widget.resep.favoriteCount})",
+                                                  style: const TextStyle(
                                                       fontSize: 16,
                                                       fontWeight:
                                                           FontWeight.bold,
                                                       color: Colors.red),
                                                 ),
                                               ] else ...[
-                                                const Text(
-                                                  "Favorite",
-                                                  style: TextStyle(
+                                                Text(
+                                                  "Favorite (${widget.resep.favoriteCount})",
+                                                  style: const TextStyle(
                                                       fontSize: 16,
                                                       fontWeight:
                                                           FontWeight.bold,

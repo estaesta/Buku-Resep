@@ -257,8 +257,7 @@ var resepList = [
   ),
   Resep(
     nama: "Soto Kambing",
-    imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    imageAsset: "https://www.bango.co.id/gfx/recipes/1465194939.jpg",
     description:
         "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
     waktu: 50,
@@ -294,8 +293,7 @@ var resepList = [
   ),
   Resep(
     nama: "Soto Ayam",
-    imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+    imageAsset: "https://www.bango.co.id/gfx/recipes/1465194939.jpg",
     description:
         "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
     waktu: 50,
@@ -330,225 +328,88 @@ var resepList = [
     favoriteCount: 3,
   ),
   Resep(
-    nama: "Soto Ayam",
+    nama: "Nasi Goreng",
     imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+        "https://asset.kompas.com/crops/riPGK5eD7amHKtv3dFNqioI6IqI=/13x7:700x465/780x390/data/photo/2021/09/24/614dc6865eb24.jpg",
     description:
-        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+        "Nasi Goreng adalah makanan khas Indonesia yang terbuat dari nasi yang diperekatkan dengan bumbu-bumbu yang dihaluskan. Nasi Goreng biasanya ditemukan di daerah Jawa Timur, Jawa Tengah, Jawa Barat, Bali, Nusa Tenggara Barat, Nusa Tenggara Timur, Nusa Tenggara Selatan, Nusa Tenggara Timur, Nusa Tenggara Utara, dan Papua.",
     waktu: 50,
     porsi: 5,
     videoUrl: "",
     bahanBahan: {
       "Bahan": [
-        Bahan("Daging kambing potong dadu", 500, "g"),
-        Bahan("Tusuk sate", 20, "buah")
+        Bahan("Nasi", 500, "g"),
       ],
-      "Bumbu olesan": [
+      "Bumbu halus": [
         Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Bawang merang", 3, "buah"),
         Bahan("Ketumbar halus", 0.2, "sdt"),
         Bahan("Merica halus", 0.25, "sdt"),
         Bahan("Garam", 0.25, "sdt"),
-        Bahan("Kecap manis", 100, "ml"),
-        Bahan("Air perasan jeruk nipis", "", "secukupnya")
       ],
-      "Bahan pelengkap": [
-        Bahan("Tomat", 2, "buah"),
-        Bahan("Kubis iris halus", 50, "g"),
-        Bahan("Cabai rawit iris", 10, "buah"),
-        Bahan("Kecap manis", 5, "sdm")
-      ]
     },
     cara: [
-      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
-      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
-      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
-      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+      "Haluskan bumbu halus",
+      "Tumis bumbu halus hingga harum",
+      "Masukkan nasi hingga matang",
+      "Sajikan",
     ],
-    favoriteCount: 3,
   ),
   Resep(
-    nama: "Soto Ayam",
+    nama: "Tempe Mendoan",
     imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+        "https://pict.sindonews.net/dyn/850/pena/news/2021/01/25/185/312930/resep-tempe-mendoan-nikmat-selagi-masih-panas-lgx.jpg",
     description:
-        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+        "Tempe mendoan adalah makanan khas Indonesia yang terbuat dari nasi yang diperekatkan dengan bumbu-bumbu yang dihaluskan. Tempe mendoan biasanya ditemukan di daerah Jawa Timur, Jawa Tengah, Jawa Barat, Bali, Nusa Tenggara Barat, Nusa Tenggara Timur, Nusa Tenggara Selatan, Nusa Tenggara Timur, Nusa Tenggara Utara, dan Papua.",
     waktu: 50,
     porsi: 5,
     videoUrl: "",
     bahanBahan: {
       "Bahan": [
-        Bahan("Daging kambing potong dadu", 500, "g"),
-        Bahan("Tusuk sate", 20, "buah")
+        Bahan("Tempe", 500, "g"),
       ],
-      "Bumbu olesan": [
-        Bahan("Bawang putih, haluskan", 2, "siung"),
-        Bahan("Ketumbar halus", 0.2, "sdt"),
-        Bahan("Merica halus", 0.25, "sdt"),
-        Bahan("Garam", 0.25, "sdt"),
-        Bahan("Kecap manis", 100, "ml"),
-        Bahan("Air perasan jeruk nipis", "", "secukupnya")
-      ],
-      "Bahan pelengkap": [
-        Bahan("Tomat", 2, "buah"),
-        Bahan("Kubis iris halus", 50, "g"),
-        Bahan("Cabai rawit iris", 10, "buah"),
-        Bahan("Kecap manis", 5, "sdm")
+      "Bahan tepung": [
+        Bahan("Tepung terigu", 500, "g"),
+        Bahan("Tepung beras", 500, "g"),
+        Bahan("Garam", 1, "jumput"),
+        Bahan("Gula", 1, "sdt"),
+        Bahan("Air", 100, "ml"),
       ]
     },
     cara: [
-      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
-      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
-      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
-      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+      "Campur bahan tepung",
+      "Masukkan tempe",
+      "goreng setengah matang",
+      "Sajikan",
     ],
-    favoriteCount: 3,
   ),
+  //resep rendang
   Resep(
-    nama: "Soto Ayam",
+    nama: "Rendang",
     imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
+        "https://cdn0-production-images-kly.akamaized.net/YHppKTMNcRz87-cP2Wrg5Ye8mFc=/1x112:1000x675/1200x675/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3245094/original/043061400_1600750232-shutterstock_1786027046.jpg",
     description:
-        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
+        "Rendang adalah makanan khas Indonesia yang terbuat dari nasi yang diperekatkan dengan bumbu-bumbu yang dihaluskan. Rendang biasanya ditemukan di daerah Jawa Timur, Jawa Tengah, Jawa Barat, Bali, Nusa Tenggara Barat, Nusa Tenggara Timur, Nusa Tenggara Selatan, Nusa Tenggara Timur, Nusa Tenggara Utara, dan Papua.",
     waktu: 50,
     porsi: 5,
     videoUrl: "",
     bahanBahan: {
       "Bahan": [
-        Bahan("Daging kambing potong dadu", 500, "g"),
-        Bahan("Tusuk sate", 20, "buah")
+        Bahan("Daging", 500, "g"),
       ],
-      "Bumbu olesan": [
+      "Bumbu halus": [
         Bahan("Bawang putih, haluskan", 2, "siung"),
+        Bahan("Bawang merang", 3, "buah"),
         Bahan("Ketumbar halus", 0.2, "sdt"),
         Bahan("Merica halus", 0.25, "sdt"),
         Bahan("Garam", 0.25, "sdt"),
-        Bahan("Kecap manis", 100, "ml"),
-        Bahan("Air perasan jeruk nipis", "", "secukupnya")
       ],
-      "Bahan pelengkap": [
-        Bahan("Tomat", 2, "buah"),
-        Bahan("Kubis iris halus", 50, "g"),
-        Bahan("Cabai rawit iris", 10, "buah"),
-        Bahan("Kecap manis", 5, "sdm")
-      ]
     },
     cara: [
-      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
-      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
-      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
-      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
+      "Haluskan bumbu halus",
+      "Tumis bumbu halus hingga harum",
+      "Masukkan daging",
+      "Sajikan",
     ],
-    favoriteCount: 3,
   ),
-  Resep(
-    nama: "Soto Ayam",
-    imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
-    description:
-        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
-    waktu: 50,
-    porsi: 5,
-    videoUrl: "",
-    bahanBahan: {
-      "Bahan": [
-        Bahan("Daging kambing potong dadu", 500, "g"),
-        Bahan("Tusuk sate", 20, "buah")
-      ],
-      "Bumbu olesan": [
-        Bahan("Bawang putih, haluskan", 2, "siung"),
-        Bahan("Ketumbar halus", 0.2, "sdt"),
-        Bahan("Merica halus", 0.25, "sdt"),
-        Bahan("Garam", 0.25, "sdt"),
-        Bahan("Kecap manis", 100, "ml"),
-        Bahan("Air perasan jeruk nipis", "", "secukupnya")
-      ],
-      "Bahan pelengkap": [
-        Bahan("Tomat", 2, "buah"),
-        Bahan("Kubis iris halus", 50, "g"),
-        Bahan("Cabai rawit iris", 10, "buah"),
-        Bahan("Kecap manis", 5, "sdm")
-      ]
-    },
-    cara: [
-      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
-      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
-      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
-      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
-    ],
-    favoriteCount: 3,
-  ),
-  Resep(
-    nama: "Soto Ayam",
-    imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
-    description:
-        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
-    waktu: 50,
-    porsi: 5,
-    videoUrl: "",
-    bahanBahan: {
-      "Bahan": [
-        Bahan("Daging kambing potong dadu", 500, "g"),
-        Bahan("Tusuk sate", 20, "buah")
-      ],
-      "Bumbu olesan": [
-        Bahan("Bawang putih, haluskan", 2, "siung"),
-        Bahan("Ketumbar halus", 0.2, "sdt"),
-        Bahan("Merica halus", 0.25, "sdt"),
-        Bahan("Garam", 0.25, "sdt"),
-        Bahan("Kecap manis", 100, "ml"),
-        Bahan("Air perasan jeruk nipis", "", "secukupnya")
-      ],
-      "Bahan pelengkap": [
-        Bahan("Tomat", 2, "buah"),
-        Bahan("Kubis iris halus", 50, "g"),
-        Bahan("Cabai rawit iris", 10, "buah"),
-        Bahan("Kecap manis", 5, "sdm")
-      ]
-    },
-    cara: [
-      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
-      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
-      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
-      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
-    ],
-    favoriteCount: 3,
-  ),
-  Resep(
-    nama: "Soto Ayam",
-    imageAsset:
-        "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Sate-kambing.jpg?fit=500%2C333&ssl=1",
-    description:
-        "Sate daging kambing Lorem ipsum dolor sit amet, consetetur labore aliquyam Lorem ipsum dolor sit amet.",
-    waktu: 50,
-    porsi: 5,
-    videoUrl: "",
-    bahanBahan: {
-      "Bahan": [
-        Bahan("Daging kambing potong dadu", 500, "g"),
-        Bahan("Tusuk sate", 20, "buah")
-      ],
-      "Bumbu olesan": [
-        Bahan("Bawang putih, haluskan", 2, "siung"),
-        Bahan("Ketumbar halus", 0.2, "sdt"),
-        Bahan("Merica halus", 0.25, "sdt"),
-        Bahan("Garam", 0.25, "sdt"),
-        Bahan("Kecap manis", 100, "ml"),
-        Bahan("Air perasan jeruk nipis", "", "secukupnya")
-      ],
-      "Bahan pelengkap": [
-        Bahan("Tomat", 2, "buah"),
-        Bahan("Kubis iris halus", 50, "g"),
-        Bahan("Cabai rawit iris", 10, "buah"),
-        Bahan("Kecap manis", 5, "sdm")
-      ]
-    },
-    cara: [
-      "Tusuk daging dengan tusukan sate. Isi setiap tusukan dengan 4 potong daging. Sisihkan.",
-      "Dalam wadah, campur semua bahan olesan lalu oleskan ke daging sate.",
-      "Bakar sate di atas bara api sambil sesekali dioles bumbu oles. Bakar hingga berwarna kecoklatan, matang, dan harum. Angkat.",
-      "Tata semua bahan pelengkap (Acar timun) dan sate di atas piring saji. Tuang kecap manis di atas sate. Siap disajikan.",
-    ],
-    favoriteCount: 3,
-  )
 ];
