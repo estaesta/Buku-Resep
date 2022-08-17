@@ -1,31 +1,18 @@
 import 'package:flutter/material.dart';
 
 import '../model/resep.dart';
+import '../widgets/fav_button.dart';
 
-class DetailScreen extends StatefulWidget {
+class DetailScreen extends StatelessWidget {
   final Resep resep;
 
   const DetailScreen({super.key, required this.resep});
 
   @override
-  State<DetailScreen> createState() => _DetailScreenState();
-}
-
-class _DetailScreenState extends State<DetailScreen> {
-  bool unitGram = true;
-  late bool favState;
-
-  @override
-  void initState() {
-    favState = favList.contains(widget.resep.id);
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.resep.nama),
+        title: Text(resep.nama),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),
@@ -42,7 +29,7 @@ class _DetailScreenState extends State<DetailScreen> {
                     bottom: Radius.circular(10),
                   ),
                   child: Image.network(
-                    widget.resep.imageAsset,
+                    resep.imageAsset,
                     fit: BoxFit.cover,
                     width: 1200,
                     height: MediaQuery.of(context).size.height * 0.45,
@@ -72,7 +59,7 @@ class _DetailScreenState extends State<DetailScreen> {
                               children: [
                                 const SizedBox(height: 16),
                                 Text(
-                                  widget.resep.nama,
+                                  resep.nama,
                                   style: const TextStyle(
                                       fontSize: 26,
                                       fontWeight: FontWeight.bold),
@@ -81,7 +68,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                   height: 30,
                                 ),
                                 Text(
-                                  widget.resep.description,
+                                  resep.description,
                                   style: const TextStyle(fontSize: 16),
                                 ),
                                 const SizedBox(
@@ -97,49 +84,8 @@ class _DetailScreenState extends State<DetailScreen> {
                                         mainAxisAlignment:
                                             MainAxisAlignment.end,
                                         children: [
-                                          Column(
-                                            children: [
-                                              IconButton(
-                                                icon:
-                                                    const Icon(Icons.favorite),
-                                                onPressed: () {
-                                                  setState(() {
-                                                    favState = !favState;
-                                                    if (favState) {
-                                                      favList
-                                                          .add(widget.resep.id);
-                                                      widget.resep.favoriteCount++;
-                                                    } else {
-                                                      favList.remove(
-                                                          widget.resep.id);
-                                                      widget.resep.favoriteCount--;
-                                                    }
-                                                  });
-                                                },
-                                                color: favState
-                                                    ? Colors.red
-                                                    : Colors.grey,
-                                              ),
-                                              if (favState) ...[
-                                                Text(
-                                                  "Favorited (${widget.resep.favoriteCount})",
-                                                  style: const TextStyle(
-                                                      fontSize: 16,
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                      color: Colors.red),
-                                                ),
-                                              ] else ...[
-                                                Text(
-                                                  "Favorite (${widget.resep.favoriteCount})",
-                                                  style: const TextStyle(
-                                                      fontSize: 16,
-                                                      fontWeight:
-                                                          FontWeight.bold,
-                                                      color: Colors.grey),
-                                                ),
-                                              ]
-                                            ],
+                                          FavButton(
+                                            resep: resep,
                                           ),
                                         ],
                                       ),
@@ -148,7 +94,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                 ),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: widget.resep.bahanBahan.keys
+                                  children: resep.bahanBahan.keys
                                       .map((key) => Column(
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
@@ -163,7 +109,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                               const SizedBox(
                                                 height: 10,
                                               ),
-                                              ...widget.resep.bahanBahan[key]!
+                                              ...resep.bahanBahan[key]!
                                                   .map((bahan) => Text(
                                                         '${bahan.nama}    ${bahan.banyak} ${bahan.satuan}',
                                                         style: const TextStyle(
@@ -191,7 +137,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                 ),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: widget.resep.cara
+                                  children: resep.cara
                                       .map((cara) => Column(
                                             children: [
                                               Row(

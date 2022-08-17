@@ -97,7 +97,10 @@ class _FavoritePageState extends State<FavoritePage> {
                         icon: const Icon(Icons.delete),
                         onPressed: () {
                           setState(() {
-                            favList.removeAt(index);
+                            favList.remove(resep.id);
+                            resepFav.remove(resep);
+                            resep.favoriteCount--;
+                            _foundResep.remove(resep);
                           });
                         },
                       ),
